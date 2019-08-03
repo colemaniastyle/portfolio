@@ -1,0 +1,41 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
+@import "top-section.css";
+@import "services.css";
+@import "portfolio.css";
+
+body{
+  overflow: hidden;
+  background: rgb(4,63,140); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(4,63,140,1) 2%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(4,63,140,1) 2%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(4,63,140,1) 2%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#043f8c', endColorstr='#000000',GradientType=1 );
+  color: #178CA6;
+
+}
+
+.circle{
+    background: url('file:///C:/PrOjEcTs/portfolio-portfolio/img/pro.gif');
+}
+
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+}
+/* tablets */
+@media only screen and (max-width: 960px){
+  .container{ width: 100%}
+}
+/* phones */
+@media only screen and (max-width: 767px){
+
+}
+footer .social-container{
+  padding: 100px;
+}
+footer img{
+  height: 22px;
+  width: 22px;
+
+}

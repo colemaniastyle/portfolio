@@ -1,0 +1,98 @@
+#top{
+
+}
+#top .container{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+}
+#top .aboutme{
+  position: relative;
+  left: 177px;
+}
+#top .info{
+  padding: 15px;
+  position: relative;
+}
+#top .info .blue-square{
+  border: 20px solid #043F8C;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 0;
+  top: -70%;
+  left: -50%;
+}
+#top .info h1{
+  font-family: 'Exo', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #07D9D9;
+  margin-bottom: 2rem;
+  z-index: 1;
+  position: relative;
+}
+#top .info h1:hover{
+  color: #178CA6;
+  transition: all .9s ease-in-out;
+}
+#top .info p{
+  color: #919191;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  z-index: 1;
+  position: relative;
+}
+#top .skills{
+  color: #919191;
+  position: relative;
+  top: -50px;
+}
+
+#top .skills img{
+  height: 40px;
+  width: 40px;
+}
+#top .info a{
+  color: #919191;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  z-index: 1;
+  position: relative;
+  letter-spacing: 1px;
+}
+#top .img{
+  margin-left: 70px;
+}
+#top .img img{
+    border-radius: 50%;
+    margin-left: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+#top .img .background-img img{
+
+}
+#top .social-media{
+  top: 30px;
+  position: relative;
+}
+/* tablet */
+@media only screen and (max-width: 960px){
+
+}
+/* phone */
+@media only screen and (max-width: 767px){
+  #top .container{
+    padding: 0 15px 80px;
+  }
+  #top .info .blue-square{
+    display: none;
+  }
+  #top .img .background-img{
+    height: 100vh;
+  }
+}
